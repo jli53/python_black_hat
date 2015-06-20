@@ -25,7 +25,7 @@ def extract_image(headers, http_payload):
     image_type = None
     
     try:
-        if "image" in headers['Content-type']:
+        if "image" in headers['Content-Type']:
             
             image_type = headers['Content-Type'].split("/")[1]
             

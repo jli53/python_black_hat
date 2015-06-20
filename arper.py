@@ -83,7 +83,7 @@ try:
     
     wrpcap('arper.pcap',packets)
     
-    restore_target(getway_ip,gateway_mac,target_ip,target_mac)
+    restore_target(gateway_ip,gateway_mac,target_ip,target_mac)
     
 except KeyboardInterrupt:
     restore_target(gateway_ip,gateway_mac,target_ip,target_mac)
